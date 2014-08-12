@@ -26,11 +26,13 @@ DESCRIPTION
                 Returns a WebService::UrbanDictionary::Term object.
 
 SEE ALSO
-    <http://search.cpan.org/~sock/WWW-Search-UrbanDictionary-0.4/lib/WWW/Sea
-    rch/UrbanDictionary.pm>
+    WWW::Search::UrbanDictionary
 
 AUTHOR
     William Woodruff <william@tuffbizz.com>
+
+CONTRIBUTOR
+    Gabriel Vieira <gabriel.vieira@gmail.com>
 
 COPYRIGHT AND LICENSE
     This software is Copyright (c) 2014 by William Woodruff.

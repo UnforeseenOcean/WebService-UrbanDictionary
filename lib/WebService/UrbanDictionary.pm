@@ -50,12 +50,12 @@ WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's onl
 =item C<< request(word) >>
 
 Requests data on the given word from UrbanDictionary's API.
-Returns a WebService::UrbanDictionary::Term object.
+Returns a L<WebService::UrbanDictionary::Term> object.
 
 =back
 
 =head1 SEE ALSO
 
-L<http://search.cpan.org/~sock/WWW-Search-UrbanDictionary-0.4/lib/WWW/Search/UrbanDictionary.pm>
+L<WWW::Search::UrbanDictionary>
 
 =cut

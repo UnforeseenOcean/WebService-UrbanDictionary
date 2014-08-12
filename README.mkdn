@@ -27,15 +27,19 @@ WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's onl
 - `request(word)`
 
     Requests data on the given word from UrbanDictionary's API.
-    Returns a WebService::UrbanDictionary::Term object.
+    Returns a [WebService::UrbanDictionary::Term](https://metacpan.org/pod/WebService::UrbanDictionary::Term) object.
 
 # SEE ALSO
 
-[http://search.cpan.org/~sock/WWW-Search-UrbanDictionary-0.4/lib/WWW/Search/UrbanDictionary.pm](http://search.cpan.org/~sock/WWW-Search-UrbanDictionary-0.4/lib/WWW/Search/UrbanDictionary.pm)
+[WWW::Search::UrbanDictionary](https://metacpan.org/pod/WWW::Search::UrbanDictionary)
 
 # AUTHOR
 
 William Woodruff <william@tuffbizz.com>
+
+# CONTRIBUTOR
+
+Gabriel Vieira <gabriel.vieira@gmail.com>
 
 # COPYRIGHT AND LICENSE
 

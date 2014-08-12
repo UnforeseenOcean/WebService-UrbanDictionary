@@ -6,11 +6,8 @@ my $ud = WebService::UrbanDictionary->new;
 
 ok(defined $ud);
 
-my $defs = $ud->request("perl");
+my $data = $ud->request("perl");
 
-# foreach (@{$defs->definitions}) {
-# 	note($_->definition); 
-# }
+ok(defined $data);
 
-ok (defined $defs);
-
+#ok($data->definition =~ m/pur'-el/);
