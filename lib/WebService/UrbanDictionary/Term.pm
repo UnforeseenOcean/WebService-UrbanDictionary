@@ -43,13 +43,10 @@ WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's onl
 
 =over 12
 
-=item C<< BUILD(res) >>
-
-Called by C<< request() >> in L<WebService::UrbanDictionary>. Do not use externally.
-
 =item C<< definition >>
 
 Returns either an array of hashes containing API data, or the first definition of the word depending on context.
+These elements can then be accessed with the methods in L<WebService::UrbanDictionary::Term::Definition>.
 
 =back
 

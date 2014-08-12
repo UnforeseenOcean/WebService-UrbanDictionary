@@ -37,14 +37,40 @@ L<WebService::UrbanDictionary> provides an object-oriented to UrbanDictionary's 
 =over 12
 
 =item C<< defid >>
+
+Returns the definition ID for the definition.
+
 =item C<< word >>
+
+Returns the word queried.
+
 =item C<< author >>
+
+Returns the author of the definition.
+
 =item C<< permalink >>
+
+Returns a permalink (URL) to the definition.
+
 =item C<< definition >>
+
+Returns the definition itself.
+
 =item C<< example >>
+
+Returns the example used in the definition, if one exists.
+
 =item C<< thumbs_up >>
+
+Returns the number of thumbs ups given to the definition.
+
 =item C<< thumbs_down >>
+
+Returns the number of thumbs downs given to the definition.
+
 =item C<< current_vote >>
+
+Returns the current vote for the definition, if it exists.
 
 =back
 

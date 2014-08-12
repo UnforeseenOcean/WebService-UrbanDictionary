@@ -3,7 +3,7 @@ NAME
     JSON API.
 
 VERSION
-    version 2.000
+    version 2.001
 
 SYNOPSIS
             use WebService::UrbanDictionary;
