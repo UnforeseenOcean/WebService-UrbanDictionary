@@ -25,6 +25,8 @@ sub definition {
 
 1;
 
+=for Pod::Coverage BUILD
+
 =head1 SYNOPSIS
 
 	use WebService::UrbanDictionary;
