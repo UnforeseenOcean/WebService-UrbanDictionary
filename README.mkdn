@@ -8,15 +8,15 @@ version 2.000
 
 # SYNOPSIS
 
-`use WebService::UrbanDictionary;`
+        use WebService::UrbanDictionary;
 
-`my $ud = WebService::UrbanDictionary->new;`
+        my $ud = WebService::UrbanDictionary->new;
 
-`my $results = request('perl');` 
+        my $results = request('perl'); 
 
-`for my $each ( @{ $perl->definitions } ){`
-`printf "Definition: %s\n(by %s)\n\n", $each->definition, $each->author;`
-`}`
+        for my $each (@{ $results->definitions }) {
+                printf "Definition: %s\n(by %s)\n\n", $each->definition, $each->author;
+        }
 
 # DESCRIPTION
 

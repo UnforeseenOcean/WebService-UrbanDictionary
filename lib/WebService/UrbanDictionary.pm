@@ -29,15 +29,15 @@ sub request {
 
 =head1 SYNOPSIS
 
-C<use WebService::UrbanDictionary;>
+	use WebService::UrbanDictionary;
 
-C<< my $ud = WebService::UrbanDictionary->new; >>
+	my $ud = WebService::UrbanDictionary->new;
 
-C<< my $results = request('perl'); >> 
+	my $results = request('perl'); 
 
-C<< for my $each ( @{ $perl->definitions } ){ >>
-C<< printf "Definition: %s\n(by %s)\n\n", $each->definition, $each->author; >>
-C<< } >>
+	for my $each (@{ $results->definitions }) {
+		printf "Definition: %s\n(by %s)\n\n", $each->definition, $each->author;
+	}
 
 =head1 DESCRIPTION
 
