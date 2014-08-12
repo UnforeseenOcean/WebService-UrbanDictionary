@@ -1,0 +1,39 @@
+NAME
+    WebService::UrbanDictionary - An OO interface to UrbanDictionary.com's
+    JSON API
+
+VERSION
+    version 2.000
+
+SYNOPSIS
+    "use WebService::UrbanDictionary;"
+
+    "my $ud = WebService::UrbanDictionary->new;"
+
+    "my $results = request('perl');"
+
+    "for my $each ( @{ $perl->definitions } ){" "printf "Definition: %s\n(by
+    %s)\n\n", $each->definition, $each->author;" "}"
+
+DESCRIPTION
+    WebService::UrbanDictionary provides an object-oriented to
+    UrbanDictionary's online JSON API.
+
+  Methods
+    "request(word)" Requests data on the given word from UrbanDictionary's
+    API. Returns a WebService::UrbanDictionary::Term object.
+
+SEE ALSO
+    <http://search.cpan.org/~sock/WWW-Search-UrbanDictionary-0.4/lib/WWW/Sea
+    rch/UrbanDictionary.pm>
+
+AUTHOR
+    William Woodruff <william@tuffbizz.com>
+
+COPYRIGHT AND LICENSE
+    This software is Copyright (c) 2014 by William Woodruff.
+
+    This is free software, licensed under:
+
+      The MIT (X11) License
+

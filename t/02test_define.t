@@ -1,7 +1,16 @@
-use Test;
-BEGIN { plan tests => 1 }
+use Test::More;
+BEGIN { plan tests => 2 }
 use WebService::UrbanDictionary;
 
-my $def = define_word('perl', 0);
+my $ud = WebService::UrbanDictionary->new;
 
-ok($def =~ m/pur'-el/);
+ok(defined $ud);
+
+my $defs = $ud->request("perl");
+
+# foreach (@{$defs->definitions}) {
+# 	note($_->definition); 
+# }
+
+ok (defined $defs);
+

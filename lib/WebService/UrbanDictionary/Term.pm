@@ -18,7 +18,7 @@ sub BUILD {
 
 sub definition {
 	my $defs = shift->definitions;
-	wantarray ? @$defs : $defs->[0]->definition;
+	return (wantarray ? @$defs : $defs->[0]->definition);
 }
 
 1;
