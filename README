@@ -1,6 +1,6 @@
 NAME
     WebService::UrbanDictionary - An OO interface to UrbanDictionary.com's
-    JSON API
+    JSON API.
 
 VERSION
     version 2.000
@@ -21,8 +21,9 @@ DESCRIPTION
     UrbanDictionary's online JSON API.
 
   Methods
-    "request(word)" Requests data on the given word from UrbanDictionary's
-    API. Returns a WebService::UrbanDictionary::Term object.
+    "request(word)"
+                Requests data on the given word from UrbanDictionary's API.
+                Returns a WebService::UrbanDictionary::Term object.
 
 SEE ALSO
     <http://search.cpan.org/~sock/WWW-Search-UrbanDictionary-0.4/lib/WWW/Sea

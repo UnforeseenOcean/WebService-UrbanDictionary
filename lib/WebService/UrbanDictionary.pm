@@ -1,6 +1,6 @@
 package WebService::UrbanDictionary;
 
-# ABSTRACT: An OO interface to UrbanDictionary.com's JSON API
+# ABSTRACT: An OO interface to UrbanDictionary.com's JSON API.
 
 our $VERSION = "2.000";
 
@@ -48,6 +48,7 @@ WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's onl
 =over 12
 
 =item C<< request(word) >>
+
 Requests data on the given word from UrbanDictionary's API.
 Returns a WebService::UrbanDictionary::Term object.
 

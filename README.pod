@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-WebService::UrbanDictionary - An OO interface to UrbanDictionary.com's JSON API
+WebService::UrbanDictionary - An OO interface to UrbanDictionary.com's JSON API.
 
 =head1 VERSION
 
@@ -29,6 +29,7 @@ WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's onl
 =over 12
 
 =item C<< request(word) >>
+
 Requests data on the given word from UrbanDictionary's API.
 Returns a WebService::UrbanDictionary::Term object.
 
