@@ -28,6 +28,10 @@ sub definition {
 
 =for Pod::Coverage BUILD
 
+=head1 NAME
+
+WebService::UrbanDictionary::Term - Object for holding definitions and other data requested by L<WebService::UrbanDictionary>.
+
 =head1 SYNOPSIS
 
 	use WebService::UrbanDictionary;
@@ -40,7 +44,9 @@ sub definition {
 
 =head1 DESCRIPTION
 
-WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's online JSON API.
+WebService::UrbanDictionary::Term objects are returned by the C< request(word) > method
+of L<WebService::UrbanDictionary> objects upon successfully retreiving data from UrbanDictionary.com's 
+JSON API.
 
 =head2 Methods
 
@@ -55,6 +61,7 @@ These elements can then be accessed with the methods in L<WebService::UrbanDicti
 
 =head1 SEE ALSO
 
-L<WWW::Search::UrbanDictionary>
+L<WebService::UrbanDictionary>
+L<WebService::UrbanDictionary::Term::Definition>
 
 =cut
