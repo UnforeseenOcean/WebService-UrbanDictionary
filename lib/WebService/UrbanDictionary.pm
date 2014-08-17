@@ -57,6 +57,7 @@ Returns a L<WebService::UrbanDictionary::Term> object.
 =head1 SEE ALSO
 
 L<WebService::UrbanDictionary::Term>
+
 L<WebService::UrbanDictionary::Term::Definition>
 
 L<WWW::Search::UrbanDictionary> - Module for accessing UrbanDictionary's (deprecated) SOAP API.

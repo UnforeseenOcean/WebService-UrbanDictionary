@@ -62,6 +62,7 @@ These elements can then be accessed with the methods in L<WebService::UrbanDicti
 =head1 SEE ALSO
 
 L<WebService::UrbanDictionary>
+
 L<WebService::UrbanDictionary::Term::Definition>
 
 =cut

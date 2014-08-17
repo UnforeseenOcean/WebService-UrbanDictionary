@@ -80,6 +80,7 @@ Returns the current vote for the definition, if it exists.
 =head1 SEE ALSO
 
 L<WebService::UrbanDictionary>
+
 L<WebService::UrbanDictionary::Term>
 
 =cut
