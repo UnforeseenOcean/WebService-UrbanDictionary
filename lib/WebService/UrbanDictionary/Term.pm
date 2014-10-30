@@ -27,6 +27,11 @@ sub definition {
 1;
 
 =for Pod::Coverage BUILD
+=for Pod::Coverage term
+=for Pod::Coverage tags
+=for Pod::Coverage result_type
+=for Pod::Coverage definitions
+=for Pod::Coverage sounds
 
 =head1 NAME
 
