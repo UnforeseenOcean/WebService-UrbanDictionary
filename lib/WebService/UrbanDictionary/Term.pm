@@ -43,7 +43,7 @@ WebService::UrbanDictionary::Term - Object for holding definitions and other dat
 
 	my $ud = WebService::UrbanDictionary->new;
 
-	my $results = request('perl'); 
+	my $results = $ud->request('perl'); 
 
 	my $definition = $results->definition;
 
