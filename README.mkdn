@@ -41,13 +41,15 @@ WebService::UrbanDictionary provides an object-oriented to UrbanDictionary's onl
 
 William Woodruff <william@tuffbizz.com>
 
-# CONTRIBUTOR
+# CONTRIBUTORS
 
-Gabriel Vieira <gabriel.vieira@gmail.com>
+- Gabriel Vieira <gabriel.vieira@gmail.com>
+- Scott C <cabrinhascott@gmail.com>
+- William Woodruff <woodruffw@users.noreply.github.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by William Woodruff.
+This software is Copyright (c) 2015 by William Woodruff.
 
 This is free software, licensed under:
 

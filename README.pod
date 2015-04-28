@@ -47,15 +47,29 @@ L<WWW::Search::UrbanDictionary> - Module for accessing UrbanDictionary's (deprec
 
 William Woodruff <william@tuffbizz.com>
 
-=head1 CONTRIBUTOR
+=head1 CONTRIBUTORS
 
-=for stopwords Gabriel Vieira
+=for stopwords Gabriel Vieira Scott C William Woodruff
+
+=over 4
+
+=item *
 
 Gabriel Vieira <gabriel.vieira@gmail.com>
 
+=item *
+
+Scott C <cabrinhascott@gmail.com>
+
+=item *
+
+William Woodruff <woodruffw@users.noreply.github.com>
+
+=back
+
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by William Woodruff.
+This software is Copyright (c) 2015 by William Woodruff.
 
 This is free software, licensed under:
 

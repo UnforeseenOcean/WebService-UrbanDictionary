@@ -33,7 +33,7 @@ sub request {
 
 	my $ud = WebService::UrbanDictionary->new;
 
-	my $results = request('perl'); 
+	my $results = $ud->request('perl'); 
 
 	for my $each (@{ $results->definitions }) {
 		printf "Definition: %s\n(by %s)\n\n", $each->definition, $each->author;
