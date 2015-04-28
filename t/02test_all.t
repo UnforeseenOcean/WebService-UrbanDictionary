@@ -1,4 +1,5 @@
 use Test::More;
+use Test::RequiresInternet;
 BEGIN { plan tests => 10 }
 use WebService::UrbanDictionary;
 

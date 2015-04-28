@@ -1,12 +1,9 @@
 use Test::More;
+use Test::RequiresInternet;
 BEGIN { plan tests => 1 }
 use LWP::UserAgent;
 
-diag "\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
-diag "!                                                                          !\n";
-diag "! These tests WILL FAIL unless your computer is connected to the internet. !\n";
-diag "!                                                                          !\n";
-diag "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n";
+# Note: This test is pointless now that Test::RequiresInternet is being used.
 
 my $browser = LWP::UserAgent->new;
 my $response = $browser->get("http://www.google.com");
